@@ -1,4 +1,3 @@
-"use strict";
 function calcula(a, b) {
     return a + b;
 }
