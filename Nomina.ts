@@ -47,7 +47,7 @@ function imprimirExacto(numero){
 imprimirExacto(20)
 
 function imprimirImpares(){
-    let i = 1 
+    let i: number = 1 
     for (i = 1; i<=100; i++){
         if (i % 2 != 0){
             console.log(i)
@@ -58,7 +58,7 @@ function imprimirImpares(){
 imprimirImpares()
 
 function multiplosTres(num){
-    let i = 3
+    let i:number = 3
     for (i = 3; i<= num; i++){
         if (i % 3 ==0)
         console.log(i)
